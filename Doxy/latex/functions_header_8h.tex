@@ -1,0 +1,68 @@
+\hypertarget{functions_header_8h}{}\doxysection{C\+:/\+Users/\+Krono/source/repos/\+Ignat\+\_\+\+Knpo/\+Ignat\+\_\+\+Knpo/functions\+Header.h File Reference}
+\label{functions_header_8h}\index{C:/Users/Krono/source/repos/Ignat\_Knpo/Ignat\_Knpo/functionsHeader.h@{C:/Users/Krono/source/repos/Ignat\_Knpo/Ignat\_Knpo/functionsHeader.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}function\+Used\+In\+Code.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}constant\+In\+Function.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Header.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{functions_header_8h_a7d972e2925e8f9542a76b9869ba60c93}{find\+Constants\+In\+Code}} (std\+::string program\+Code\mbox{[}$\,$\mbox{]}, int string\+Count, \mbox{\hyperlink{classfunction_used_in_code}{function\+Used\+In\+Code}} functions\mbox{[}$\,$\mbox{]}, \mbox{\hyperlink{classfunction_used_in_code}{function\+Used\+In\+Code}} $\ast$outside, int \&functions\+Count, \mbox{\hyperlink{structerror_info}{error\+Info}} \&error)
+\item 
+int \mbox{\hyperlink{functions_header_8h_ab735004d704ddcc6b95e69e80209d8e8}{sub\+Stringin\+Strings\+Range}} (char $\ast$string, const char $\ast$sub\+String, int left\+Border\+Index, int right\+Border\+Index)
+\item 
+bool \mbox{\hyperlink{functions_header_8h_a1090d7cae4f6d9a2de8abfaa938da836}{is\+Sub\+String\+In\+String\+Constant}} (char $\ast$string, int string\+Length, int sub\+String\+Start, int sub\+String\+Length)
+\item 
+std\+::string \mbox{\hyperlink{functions_header_8h_ad7349a0c971867aad38f9ac3c2b856bc}{erase\+Commentaries\+In\+String}} (std\+::string code\+String, bool \&is\+In\+Comment)
+\item 
+std\+::string \mbox{\hyperlink{functions_header_8h_a46183be415a76b34daf59dbcd0ddbf53}{erase\+Format\+And\+Command\+Symbols}} (std\+::string code\+String, bool is\+In\+Print\+Or\+Scan)
+\item 
+std\+::string \mbox{\hyperlink{functions_header_8h_aac5cff286c232d6e9ab5f0f8c9e851bc}{get\+Function\+Name}} (std\+::string code\+String)
+\item 
+std\+::string \mbox{\hyperlink{functions_header_8h_a273f74d52e0944e5b8db1351097460c8}{find\+First\+String\+Constant\+In\+String}} (std\+::string \&changable\+String, bool \&is\+Constant\+In\+String\+Found)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{functions_header_8h_ad7349a0c971867aad38f9ac3c2b856bc}\label{functions_header_8h_ad7349a0c971867aad38f9ac3c2b856bc}} 
+\index{functionsHeader.h@{functionsHeader.h}!eraseCommentariesInString@{eraseCommentariesInString}}
+\index{eraseCommentariesInString@{eraseCommentariesInString}!functionsHeader.h@{functionsHeader.h}}
+\doxysubsubsection{\texorpdfstring{eraseCommentariesInString()}{eraseCommentariesInString()}}
+{\footnotesize\ttfamily std\+::string erase\+Commentaries\+In\+String (\begin{DoxyParamCaption}\item[{std\+::string}]{code\+String,  }\item[{bool \&}]{is\+In\+Comment }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_header_8h_a46183be415a76b34daf59dbcd0ddbf53}\label{functions_header_8h_a46183be415a76b34daf59dbcd0ddbf53}} 
+\index{functionsHeader.h@{functionsHeader.h}!eraseFormatAndCommandSymbols@{eraseFormatAndCommandSymbols}}
+\index{eraseFormatAndCommandSymbols@{eraseFormatAndCommandSymbols}!functionsHeader.h@{functionsHeader.h}}
+\doxysubsubsection{\texorpdfstring{eraseFormatAndCommandSymbols()}{eraseFormatAndCommandSymbols()}}
+{\footnotesize\ttfamily std\+::string erase\+Format\+And\+Command\+Symbols (\begin{DoxyParamCaption}\item[{std\+::string}]{code\+String,  }\item[{bool}]{is\+In\+Print\+Or\+Scan }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_header_8h_a7d972e2925e8f9542a76b9869ba60c93}\label{functions_header_8h_a7d972e2925e8f9542a76b9869ba60c93}} 
+\index{functionsHeader.h@{functionsHeader.h}!findConstantsInCode@{findConstantsInCode}}
+\index{findConstantsInCode@{findConstantsInCode}!functionsHeader.h@{functionsHeader.h}}
+\doxysubsubsection{\texorpdfstring{findConstantsInCode()}{findConstantsInCode()}}
+{\footnotesize\ttfamily void find\+Constants\+In\+Code (\begin{DoxyParamCaption}\item[{std\+::string}]{program\+Code\mbox{[}$\,$\mbox{]},  }\item[{int}]{string\+Count,  }\item[{\mbox{\hyperlink{classfunction_used_in_code}{function\+Used\+In\+Code}}}]{functions\mbox{[}$\,$\mbox{]},  }\item[{\mbox{\hyperlink{classfunction_used_in_code}{function\+Used\+In\+Code}} $\ast$}]{outside,  }\item[{int \&}]{functions\+Count,  }\item[{\mbox{\hyperlink{structerror_info}{error\+Info}} \&}]{error }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_header_8h_a273f74d52e0944e5b8db1351097460c8}\label{functions_header_8h_a273f74d52e0944e5b8db1351097460c8}} 
+\index{functionsHeader.h@{functionsHeader.h}!findFirstStringConstantInString@{findFirstStringConstantInString}}
+\index{findFirstStringConstantInString@{findFirstStringConstantInString}!functionsHeader.h@{functionsHeader.h}}
+\doxysubsubsection{\texorpdfstring{findFirstStringConstantInString()}{findFirstStringConstantInString()}}
+{\footnotesize\ttfamily std\+::string find\+First\+String\+Constant\+In\+String (\begin{DoxyParamCaption}\item[{std\+::string \&}]{changable\+String,  }\item[{bool \&}]{is\+Constant\+In\+String\+Found }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_header_8h_aac5cff286c232d6e9ab5f0f8c9e851bc}\label{functions_header_8h_aac5cff286c232d6e9ab5f0f8c9e851bc}} 
+\index{functionsHeader.h@{functionsHeader.h}!getFunctionName@{getFunctionName}}
+\index{getFunctionName@{getFunctionName}!functionsHeader.h@{functionsHeader.h}}
+\doxysubsubsection{\texorpdfstring{getFunctionName()}{getFunctionName()}}
+{\footnotesize\ttfamily std\+::string get\+Function\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{code\+String }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_header_8h_a1090d7cae4f6d9a2de8abfaa938da836}\label{functions_header_8h_a1090d7cae4f6d9a2de8abfaa938da836}} 
+\index{functionsHeader.h@{functionsHeader.h}!isSubStringInStringConstant@{isSubStringInStringConstant}}
+\index{isSubStringInStringConstant@{isSubStringInStringConstant}!functionsHeader.h@{functionsHeader.h}}
+\doxysubsubsection{\texorpdfstring{isSubStringInStringConstant()}{isSubStringInStringConstant()}}
+{\footnotesize\ttfamily bool is\+Sub\+String\+In\+String\+Constant (\begin{DoxyParamCaption}\item[{char $\ast$}]{string,  }\item[{int}]{string\+Length,  }\item[{int}]{sub\+String\+Start,  }\item[{int}]{sub\+String\+Length }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{functions_header_8h_ab735004d704ddcc6b95e69e80209d8e8}\label{functions_header_8h_ab735004d704ddcc6b95e69e80209d8e8}} 
+\index{functionsHeader.h@{functionsHeader.h}!subStringinStringsRange@{subStringinStringsRange}}
+\index{subStringinStringsRange@{subStringinStringsRange}!functionsHeader.h@{functionsHeader.h}}
+\doxysubsubsection{\texorpdfstring{subStringinStringsRange()}{subStringinStringsRange()}}
+{\footnotesize\ttfamily int sub\+Stringin\+Strings\+Range (\begin{DoxyParamCaption}\item[{char $\ast$}]{string,  }\item[{const char $\ast$}]{sub\+String,  }\item[{int}]{left\+Border\+Index,  }\item[{int}]{right\+Border\+Index }\end{DoxyParamCaption})}
+

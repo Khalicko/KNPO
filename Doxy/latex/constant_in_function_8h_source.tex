@@ -1,0 +1,35 @@
+\hypertarget{constant_in_function_8h_source}{}\doxysection{constant\+In\+Function.\+h}
+\label{constant_in_function_8h_source}\index{C:/Users/Krono/source/repos/Ignat\_Knpo/Ignat\_Knpo/constantInFunction.h@{C:/Users/Krono/source/repos/Ignat\_Knpo/Ignat\_Knpo/constantInFunction.h}}
+\mbox{\hyperlink{constant_in_function_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_header_8h}{Header.h}}"{}}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{keyword}{class }\mbox{\hyperlink{classconstant_in_function}{constantInFunction}}}
+\DoxyCodeLine{5 \{}
+\DoxyCodeLine{6 \textcolor{keyword}{public}:}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8     \mbox{\hyperlink{classconstant_in_function_a684d05c35c2c0b8ed90b5587f3836a58}{constantInFunction}}(); \textcolor{comment}{//Конструктор по-\/умолчанию}}
+\DoxyCodeLine{9     \mbox{\hyperlink{classconstant_in_function_a684d05c35c2c0b8ed90b5587f3836a58}{constantInFunction}}(std::string, \textcolor{keywordtype}{int}); \textcolor{comment}{//Конструктор с параметрами:}}
+\DoxyCodeLine{10     \mbox{\hyperlink{classconstant_in_function_ace75df88ae7f2a7d1811cd011540e2b2}{\string~constantInFunction}}(); \textcolor{comment}{//Деструктор}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13     std::string \mbox{\hyperlink{classconstant_in_function_ab1fe78ab2e9b830826d1b4775b52c1ba}{getName}}(); \textcolor{comment}{//Получить имя константы}}
+\DoxyCodeLine{14     \textcolor{keywordtype}{short} \mbox{\hyperlink{classconstant_in_function_a16252e48ffa8fa9ff9554d2dd2bc0555}{getAppearanceCount}}(); \textcolor{comment}{//Получить число встреч константы в своей функции}}
+\DoxyCodeLine{15     \textcolor{keywordtype}{short} \mbox{\hyperlink{classconstant_in_function_afa7ca13140d45c6c7b3c59e8133e5fd5}{getAppearingString}}(\textcolor{keywordtype}{int} index); \textcolor{comment}{//Получить номер строки,в которой константа встречается,из массива строк по индексу}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17     \textcolor{keywordtype}{void} \mbox{\hyperlink{classconstant_in_function_aa875175e62db28f105c103d9bb16e45a}{addNewAppearance}}(\textcolor{keywordtype}{int} \textcolor{keywordtype}{string}); \textcolor{comment}{//Добавить встречу константы на определённой строке}}
+\DoxyCodeLine{18     \textcolor{keywordtype}{void} \mbox{\hyperlink{classconstant_in_function_a7aa9053ac875169ceab9522a8c42922d}{setName}}(std::string \_name);}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{private}:}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22     std::string name; \textcolor{comment}{//Имя константы}}
+\DoxyCodeLine{23     \textcolor{keywordtype}{short} appearingStrings[\mbox{\hyperlink{_header_8h_ae287f7d55f40ce9d3aa737c7db5fe5c6}{MAX\_STRING\_NUMBER}}]; \textcolor{comment}{//Строки,на которых имеется упоминание данной константы}}
+\DoxyCodeLine{24     \textcolor{keywordtype}{short} countInFunction; \textcolor{comment}{//Счётчик того,сколько раз константа встречается за функцию}}
+\DoxyCodeLine{25 \};}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 }
+
+\end{DoxyCode}

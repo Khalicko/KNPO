@@ -1,0 +1,50 @@
+\hypertarget{function_used_in_code_8h_source}{}\doxysection{function\+Used\+In\+Code.\+h}
+\label{function_used_in_code_8h_source}\index{C:/Users/Krono/source/repos/Ignat\_Knpo/Ignat\_Knpo/functionUsedInCode.h@{C:/Users/Krono/source/repos/Ignat\_Knpo/Ignat\_Knpo/functionUsedInCode.h}}
+\mbox{\hyperlink{function_used_in_code_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{constant_in_function_8h}{constantInFunction.h}}"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{comment}{/*}}
+\DoxyCodeLine{8 \textcolor{comment}{Функция,встреченная в коде}}
+\DoxyCodeLine{9 \textcolor{comment}{*/}}
+\DoxyCodeLine{10 \textcolor{keyword}{class }\mbox{\hyperlink{classfunction_used_in_code}{functionUsedInCode}}}
+\DoxyCodeLine{11 \{}
+\DoxyCodeLine{12 \textcolor{keyword}{public}:}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14     \mbox{\hyperlink{classfunction_used_in_code_ac1d2ed313b3dd7e6f1e7ecd934330216}{functionUsedInCode}}();}
+\DoxyCodeLine{15     \mbox{\hyperlink{classfunction_used_in_code_ac1d2ed313b3dd7e6f1e7ecd934330216}{functionUsedInCode}}(std::string \_name, \textcolor{keywordtype}{int} \_startStringNumber);}
+\DoxyCodeLine{16     \mbox{\hyperlink{classfunction_used_in_code_ae8ee7f1a5ef45ef86889901a3685a8fd}{\string~functionUsedInCode}}();}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keywordtype}{void} \mbox{\hyperlink{classfunction_used_in_code_aa6ca375db2a32fe3f9845a2e1242893f}{completeFunction}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22     std::string \mbox{\hyperlink{classfunction_used_in_code_afca40a8260a5552137f69371bbd15709}{getFuncName}}();}
+\DoxyCodeLine{23     \textcolor{keywordtype}{short} \mbox{\hyperlink{classfunction_used_in_code_a6b0f46ecea06408330be2e90d6f50f76}{getConstantNumber}}();}
+\DoxyCodeLine{24     \mbox{\hyperlink{classconstant_in_function}{constantInFunction}}* \mbox{\hyperlink{classfunction_used_in_code_a5ce389f943c707ae9da72d820088725c}{getConstant}}(\textcolor{keywordtype}{int});}
+\DoxyCodeLine{25     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classfunction_used_in_code_af7c01a7d4549f962ba62da4b4b291796}{getCompletionState}}();}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} \mbox{\hyperlink{classfunction_used_in_code_ad3c085f11d3b719289d1eefe68f2fda1}{setName}}(std::string \_name);}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} \mbox{\hyperlink{classfunction_used_in_code_a95386df5e5f0e4f498384f9a072f8719}{setStartString}}(\textcolor{keywordtype}{short} stringNumber);}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} \mbox{\hyperlink{classfunction_used_in_code_a62b4b8bd03e8b8be3d37d1f391a1cdc6}{addConstantAppearance}}(std::string \_name, \textcolor{keywordtype}{int} stringIndex);}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{keyword}{private}:}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35     std::string name = \textcolor{stringliteral}{"{}-\/1"{}}; \textcolor{comment}{//Имя функции}}
+\DoxyCodeLine{36     \textcolor{keywordtype}{short} startStringNumber = -\/1; \textcolor{comment}{//Номер(0..126) строки объявления функции}}
+\DoxyCodeLine{37     \textcolor{keywordtype}{short} endStringNumber = -\/1; \textcolor{comment}{//Номер(0..126) строки конца объявления функции}}
+\DoxyCodeLine{38     \textcolor{keywordtype}{bool} isComplete = \textcolor{keyword}{false}; \textcolor{comment}{//Является ли полной без ошибок (имеет все имя,начало и конец)}}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40     \mbox{\hyperlink{classconstant_in_function}{constantInFunction}} constants[\mbox{\hyperlink{_header_8h_a802ce2222a5af2627820b043fa5b2bad}{MAX\_CONSTANTS\_IN\_FUNCTION}}]; \textcolor{comment}{//Константы}}
+\DoxyCodeLine{41     \textcolor{keywordtype}{short} constantNumber = 0;}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \};}
+\DoxyCodeLine{44 }
+
+\end{DoxyCode}

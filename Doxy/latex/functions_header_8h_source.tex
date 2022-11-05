@@ -1,0 +1,76 @@
+\hypertarget{functions_header_8h_source}{}\doxysection{functions\+Header.\+h}
+\label{functions_header_8h_source}\index{C:/Users/Krono/source/repos/Ignat\_Knpo/Ignat\_Knpo/functionsHeader.h@{C:/Users/Krono/source/repos/Ignat\_Knpo/Ignat\_Knpo/functionsHeader.h}}
+\mbox{\hyperlink{functions_header_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{function_used_in_code_8h}{functionUsedInCode.h}}"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{constant_in_function_8h}{constantInFunction.h}}"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_header_8h}{Header.h}}"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{comment}{/*}}
+\DoxyCodeLine{11 \textcolor{comment}{Найти все строковые константы в коде}}
+\DoxyCodeLine{12 \textcolor{comment}{\(\backslash\)param[in] programCode -\/ код программы}}
+\DoxyCodeLine{13 \textcolor{comment}{\(\backslash\)param[in] stringCount -\/ число строк в коде программы}}
+\DoxyCodeLine{14 \textcolor{comment}{\(\backslash\)param[in|out] functions -\/ функции,обнаруженные в коде}}
+\DoxyCodeLine{15 \textcolor{comment}{\(\backslash\)param[in|out] functionsCount -\/ число обнаруженных в коде функций}}
+\DoxyCodeLine{16 \textcolor{comment}{\(\backslash\)param[out] hasUnclosedComment -\/ имеется ли в проверяемом коде незакрытый к концу комментарий}}
+\DoxyCodeLine{17 \textcolor{comment}{*/}}
+\DoxyCodeLine{18 \textcolor{keywordtype}{void} \mbox{\hyperlink{functions_header_8h_a7d972e2925e8f9542a76b9869ba60c93}{findConstantsInCode}}(std::string programCode[], \textcolor{keywordtype}{int} stringCount, \mbox{\hyperlink{classfunction_used_in_code}{functionUsedInCode}} functions[], \mbox{\hyperlink{classfunction_used_in_code}{functionUsedInCode}}* outside, \textcolor{keywordtype}{int}\& functionsCount, \mbox{\hyperlink{structerror_info}{errorInfo}}\& error);}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{comment}{//void findConstantsInString(std::string codeString, functionUsedInCode functions[MAX\_FUNCTIONS\_NUMBER], functionUsedInCode\& outside, bool\& isInComment, bool\& isOutside, int stringNumber,bool \& containsUnclosedQuote);}}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{comment}{//void addConstantAppearance(std::string constName, int stringIndex);}}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{comment}{/*}}
+\DoxyCodeLine{27 \textcolor{comment}{Найти число вхождений подстроки в строку между символами с заданными индексами}}
+\DoxyCodeLine{28 \textcolor{comment}{\(\backslash\)param[in] string -\/ строка,в которой ищется подстрока}}
+\DoxyCodeLine{29 \textcolor{comment}{\(\backslash\)param[in] subString -\/ искомая подстрока}}
+\DoxyCodeLine{30 \textcolor{comment}{\(\backslash\)param leftBorderIndex -\/ индекс первого символа диапазона в строке}}
+\DoxyCodeLine{31 \textcolor{comment}{\(\backslash\)param rightBorderIndex -\/ индекс последнего символа диапазона в строке}}
+\DoxyCodeLine{32 \textcolor{comment}{\(\backslash\)return число вхождений подстроки в строку в указанном диапазоне}}
+\DoxyCodeLine{33 \textcolor{comment}{*/}}
+\DoxyCodeLine{34 \textcolor{keywordtype}{int} \mbox{\hyperlink{functions_header_8h_ab735004d704ddcc6b95e69e80209d8e8}{subStringinStringsRange}}(\textcolor{keywordtype}{char}* \textcolor{keywordtype}{string}, \textcolor{keyword}{const} \textcolor{keywordtype}{char}* subString, \textcolor{keywordtype}{int} leftBorderIndex, \textcolor{keywordtype}{int} rightBorderIndex);}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \textcolor{comment}{/*}}
+\DoxyCodeLine{37 \textcolor{comment}{Находится ли подстрока данной длины,начинающаяся с данного символа,в строковой константе ("{} два "{})}}
+\DoxyCodeLine{38 \textcolor{comment}{\(\backslash\)param[in] string-\/строка,в которой находится подстрока}}
+\DoxyCodeLine{39 \textcolor{comment}{\(\backslash\)param[in] stringLength -\/ длина искомой строки}}
+\DoxyCodeLine{40 \textcolor{comment}{\(\backslash\)param[in] subStringStart -\/ индекс(0..stringLength-\/1) начала подстроки в строке}}
+\DoxyCodeLine{41 \textcolor{comment}{\(\backslash\)param[in] subStringLength -\/ длина подстроки}}
+\DoxyCodeLine{42 \textcolor{comment}{*/}}
+\DoxyCodeLine{43 \textcolor{keywordtype}{bool} \mbox{\hyperlink{functions_header_8h_a1090d7cae4f6d9a2de8abfaa938da836}{isSubStringInStringConstant}}(\textcolor{keywordtype}{char}* \textcolor{keywordtype}{string}, \textcolor{keywordtype}{int} stringLength, \textcolor{keywordtype}{int} subStringStart, \textcolor{keywordtype}{int} subStringLength);}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 \textcolor{comment}{/*}}
+\DoxyCodeLine{46 \textcolor{comment}{Удаляет многострочные и однострочные комментарии из строки}}
+\DoxyCodeLine{47 \textcolor{comment}{\(\backslash\)param[in] codeString -\/ строка кода,из которой удаляются комментарии}}
+\DoxyCodeLine{48 \textcolor{comment}{\(\backslash\)param[in|out] isCommentOpened -\/ находится ли строка в многострочном комментарии до (и после) обработки}}
+\DoxyCodeLine{49 \textcolor{comment}{*/}}
+\DoxyCodeLine{50 std::string \mbox{\hyperlink{functions_header_8h_ad7349a0c971867aad38f9ac3c2b856bc}{eraseCommentariesInString}}(std::string codeString, \textcolor{keywordtype}{bool}\& isInComment);}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52 \textcolor{comment}{/*}}
+\DoxyCodeLine{53 \textcolor{comment}{Удаляет управляющие символы и спецификаторы ввода из строки}}
+\DoxyCodeLine{54 \textcolor{comment}{\(\backslash\)param[in] codeString -\/ строка,в которой происходит удаление}}
+\DoxyCodeLine{55 \textcolor{comment}{\(\backslash\)param[in|out] isInPrintOrScan -\/ принадлежит ли строка функциям ввода/вывода данных (scanf,printf)}}
+\DoxyCodeLine{56 \textcolor{comment}{*/}}
+\DoxyCodeLine{57 std::string \mbox{\hyperlink{functions_header_8h_a46183be415a76b34daf59dbcd0ddbf53}{eraseFormatAndCommandSymbols}}(std::string codeString, \textcolor{keywordtype}{bool} isInPrintOrScan);}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{comment}{/*}}
+\DoxyCodeLine{60 \textcolor{comment}{Возвращает имя функции,объявление/заголовок которой находится в указанной строке.Возвращает саму строку,если в ней нет функций.}}
+\DoxyCodeLine{61 \textcolor{comment}{\(\backslash\)param[in] codeString -\/ строка кода,в которой находится объявление/заголовок функции}}
+\DoxyCodeLine{62 \textcolor{comment}{*/}}
+\DoxyCodeLine{63 std::string \mbox{\hyperlink{functions_header_8h_aac5cff286c232d6e9ab5f0f8c9e851bc}{getFunctionName}}(std::string codeString);}
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 \textcolor{comment}{/*}}
+\DoxyCodeLine{66 \textcolor{comment}{Возвращает первую строковую константу,найденную в строке кода}}
+\DoxyCodeLine{67 \textcolor{comment}{\(\backslash\)param[in|out] changableString -\/ строка,в которой ведётся поиск}}
+\DoxyCodeLine{68 \textcolor{comment}{\(\backslash\)param[out] isConstantInStringFound -\/ найдена ли строковая константа в переданной строке}}
+\DoxyCodeLine{69 \textcolor{comment}{*/}}
+\DoxyCodeLine{70 std::string \mbox{\hyperlink{functions_header_8h_a273f74d52e0944e5b8db1351097460c8}{findFirstStringConstantInString}}(std::string\& changableString, \textcolor{keywordtype}{bool}\& isConstantInStringFound);}
+
+\end{DoxyCode}
