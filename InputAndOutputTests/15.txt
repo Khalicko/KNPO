@@ -1,0 +1,5 @@
+int main()
+{
+const char array1[5] = "
+return 0;
+}

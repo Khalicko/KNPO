@@ -1,0 +1,8 @@
+#include <string.h>
+#include <stdio.h>
+void main()
+{
+char string1[10] = "string1";
+char string2[10] = "string2";
+strcat(string1, string2);
+}

@@ -1,0 +1,7 @@
+#include <string.h>
+void main()
+{
+/*
+   char string1[10] = "string1";*/
+const char string2[10] = "string2";
+}

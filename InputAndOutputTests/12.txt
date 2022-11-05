@@ -1,0 +1,7 @@
+#include <string.h>
+
+
+void func()
+{
+	char string4[10] = "string4";
+}

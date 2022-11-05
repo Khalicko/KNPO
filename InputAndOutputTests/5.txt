@@ -1,0 +1,4 @@
+void main()
+{
+ printf("two plus two is %d",4);
+}

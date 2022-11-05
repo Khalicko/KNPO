@@ -1,0 +1,22 @@
+﻿  Ignat_Knpo.cpp
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(314,90): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(315,96): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(591,54): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(592,60): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(641,62): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(642,68): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(668,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(669,46): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(685,110): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(688,106): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(712,43): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(713,42): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(717,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(723,104): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(738,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(744,106): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(760,43): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(766,104): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(809,115): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Krono\source\repos\Ignat_Knpo\Ignat_Knpo\Ignat_Knpo.cpp(810,118): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Ignat_Knpo.vcxproj -> C:\Users\Krono\source\repos\Ignat_Knpo\x64\Debug\Ignat_Knpo.exe

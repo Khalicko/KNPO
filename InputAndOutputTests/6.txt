@@ -1,0 +1,4 @@
+void main()
+{
+ printf("this text has\n several strings");
+}

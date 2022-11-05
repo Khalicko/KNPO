@@ -1,0 +1,14 @@
+#include <string.h>
+
+void main()
+{
+const char string1[10] = "string1";
+const char string2[10] = "string2";
+	char string3[20];
+	strcpy(string3, string1);
+	strcat(string3, string2);
+}
+void func()
+{
+  const char string4[10] = "string4";
+}
